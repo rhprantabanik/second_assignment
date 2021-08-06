@@ -217,12 +217,15 @@ header{
     body{
         margin: 0px;
     }
-    header{
-        display: block;
+    
     }
     .half-width{
         width: 100%;
         margin: 60px 16px;
+    }
+    .half-width h1{
+        font-size: 36px;
+        line-height: 50px;
     }
     .half-width img{
         width: 329px;
