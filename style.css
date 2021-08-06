@@ -12,17 +12,18 @@ body{
 }
 .half-width{
     width: 50%;
-    margin:130px 156px;
+    margin:130px 110px;
     align-items: center;
     justify-content: center;
 
 }
 
 .half-width h1{
-    font-size: 64px;
+    font-size: 60px;
     line-height: 80px;
     font-weight: 700;
     color: white;
+    margin-right: 50px;
 }
 .half-width a{
     text-decoration: none;
@@ -42,8 +43,13 @@ body{
 .half-width img{
     width: 556px;
     height: 438px;
+    transition: transform 2s;
 }
-
+.half-width img:hover{
+    transform: scale(1.2);
+ 	scale(1.2);
+    transform: scale(1.2);
+}
 
 /* main, players profile */
 
